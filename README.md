@@ -8,6 +8,8 @@ En este proyecto, se muestra un ejemplo de pérdidad de significancia. Se proced
 A cada arreglo se le aplicó la función sqrt() de la librería, y se calculó el error considerando los resultados obtenidos.
 
 Por ejemplo, al ingresar el número 21372.6332598 se muestra:
+
 --*consola*--
 Alt_raiz32:  146.19382 Alt_raiz64:  146.19382086736772 Error:  3.728695844529284e-06.
+
 El primero valor corresponde a la raíz cuadrada del número ingresado, considerando float32. El segundo es considerando float64, y por último se observa el error.
