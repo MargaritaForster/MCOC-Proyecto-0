@@ -4,16 +4,20 @@ import math
 #SACAR RAÍZ CUADRADA DE UN NUMERO
 numero = raw_input("Ingrese un numero: ")
 np.float32(numero)
+print "Float32: "
+print np.float32(numero)
 np.float64(numero)
+print "Float64: "
+print np.float64(numero)
 
 if numero < 0:
     print "error"
 elif numero >= 0 :
     a = math.sqrt(np.float32(numero))
     b = math.sqrt(np.float64(numero))
-    print "Float32"
+    print "Raíz float32"
     print a
-    print "Float64"
+    print "Raíz float64"
     print b
     if a > b:
         c = ((a-b)/b)*100 
